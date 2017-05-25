@@ -29,14 +29,11 @@ public class Main3Activity extends AppCompatActivity {
 
         @Override
         public void run() {
-            super.run();
             Looper.prepare();
             Looper.loop();
         }
     }
     class SubHandler extends Handler{
-
-        SubHandler subHandler = new SubHandler();
 
         @Override
         public void handleMessage(Message msg) {
